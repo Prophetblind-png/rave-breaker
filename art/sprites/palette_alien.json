@@ -1,0 +1,40 @@
+{
+ "world": "alien",
+ "colors": [
+  {
+   "index": 0,
+   "base": "#ff2bd6",
+   "hit": "#ff91e9",
+   "glow": "#641956",
+   "deep": "#770360",
+   "file": "brick_alien_std0.png"
+  },
+  {
+   "index": 1,
+   "base": "#19f0ff",
+   "hit": "#7ff6ff",
+   "glow": "#185e63",
+   "deep": "#036f77",
+   "file": "brick_alien_std1.png"
+  },
+  {
+   "index": 2,
+   "base": "#7a5cff",
+   "hit": "#c4b7fe",
+   "glow": "#281967",
+   "deep": "#180377",
+   "file": "brick_alien_std2.png"
+  },
+  {
+   "index": 3,
+   "base": "#c8fff4",
+   "hit": "#b7fef0",
+   "glow": "#1b6e5e",
+   "deep": "#037760",
+   "file": "brick_alien_std3.png"
+  }
+ ],
+ "accent": "#19f0ff",
+ "ink": "#0a0420",
+ "sky": "#1a0640"
+}

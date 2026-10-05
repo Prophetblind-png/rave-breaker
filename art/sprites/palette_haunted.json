@@ -1,0 +1,40 @@
+{
+ "world": "haunted",
+ "colors": [
+  {
+   "index": 0,
+   "base": "#9b3bff",
+   "hit": "#cfa1ff",
+   "glow": "#3e1965",
+   "deep": "#3c0377",
+   "file": "brick_haunted_std0.png"
+  },
+  {
+   "index": 1,
+   "base": "#7dff3a",
+   "hit": "#c0ffa0",
+   "glow": "#336519",
+   "deep": "#2a7703",
+   "file": "brick_haunted_std1.png"
+  },
+  {
+   "index": 2,
+   "base": "#ff7a1a",
+   "hit": "#ffb580",
+   "glow": "#633818",
+   "deep": "#773303",
+   "file": "brick_haunted_std2.png"
+  },
+  {
+   "index": 3,
+   "base": "#d8d0ff",
+   "hit": "#c3b7fe",
+   "glow": "#2a1b6f",
+   "deep": "#160377",
+   "file": "brick_haunted_std3.png"
+  }
+ ],
+ "accent": "#7dff3a",
+ "ink": "#0e0618",
+ "sky": "#2a0a4a"
+}
