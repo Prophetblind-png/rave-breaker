@@ -1,0 +1,271 @@
+{
+ "world": "amazon",
+ "note": "Positions are top-left in 1920x1080 layer pixels (multiply by the bg scale k and add the layer's scroll offset). layer = which bg layer it rides on.",
+ "parallax": {
+  "bg.amazon.sky": "x = -fx.par*4 - t*1",
+  "bg.amazon.far": "x = -fx.par*14 - t*3",
+  "bg.amazon.mid": "x = -fx.par*24 - t*6",
+  "bg.amazon.near": "x = -fx.par*40 - t*10"
+ },
+ "elements": [
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 600,
+   "y": 244,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 632,
+   "y": 324,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1028,
+   "y": 308,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 668,
+   "y": 408,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 316,
+   "y": 364,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 544,
+   "y": 344,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 688,
+   "y": 268,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1368,
+   "y": 436,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1128,
+   "y": 400,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1328,
+   "y": 296,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1164,
+   "y": 164,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 984,
+   "y": 196,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 752,
+   "y": 140,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 932,
+   "y": 372,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1200,
+   "y": 452,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1192,
+   "y": 276,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 820,
+   "y": 448,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1380,
+   "y": 212,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 876,
+   "y": 164,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 720,
+   "y": 356,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1304,
+   "y": 380,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 432,
+   "y": 448,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 888,
+   "y": 292,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1684,
+   "y": 224,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 552,
+   "y": 464,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 996,
+   "y": 444,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1096,
+   "y": 240,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.star",
+   "layer": "sky",
+   "x": 1528,
+   "y": 388,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.amazon.waterfall",
+   "layer": "mid",
+   "x": 1048,
+   "y": 632,
+   "note": "scroll with mid"
+  },
+  {
+   "key": "bg.amazon.glow_left",
+   "layer": "near",
+   "x": 0,
+   "y": 560,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.amazon.glow_right",
+   "layer": "near",
+   "x": 1568,
+   "y": 688,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 260,
+   "y": 200,
+   "note": "top-left; scroll with near"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 396,
+   "y": 136,
+   "note": "top-left; scroll with near"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 492,
+   "y": 104,
+   "note": "top-left; scroll with near"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 1468,
+   "y": 104,
+   "note": "top-left; scroll with near"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 1588,
+   "y": 160,
+   "note": "top-left; scroll with near"
+  },
+  {
+   "key": "bg.amazon.vine",
+   "layer": "near",
+   "x": 1708,
+   "y": 232,
+   "note": "top-left; scroll with near"
+  }
+ ]
+}

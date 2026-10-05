@@ -1,0 +1,250 @@
+{
+ "world": "alien",
+ "note": "Positions are top-left in 1920x1080 layer pixels (multiply by the bg scale k and add the layer's scroll offset). layer = which bg layer it rides on.",
+ "parallax": {
+  "bg.alien.sky": "x = -fx.par*4 - t*1",
+  "bg.alien.far": "x = -fx.par*14 - t*3",
+  "bg.alien.mid": "x = -fx.par*8 (ground plane, keep nearly still)",
+  "bg.alien.near": "x = -fx.par*40 - t*10"
+ },
+ "elements": [
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1064,
+   "y": 204,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 400,
+   "y": 304,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1228,
+   "y": 260,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 452,
+   "y": 200,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 372,
+   "y": 104,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 940,
+   "y": 328,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1044,
+   "y": 324,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 496,
+   "y": 412,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 100,
+   "y": 196,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1120,
+   "y": 140,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1124,
+   "y": 268,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1668,
+   "y": 416,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1784,
+   "y": 80,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 620,
+   "y": 316,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 644,
+   "y": 436,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 328,
+   "y": 428,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 856,
+   "y": 308,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 732,
+   "y": 316,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1340,
+   "y": 192,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1736,
+   "y": 284,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1792,
+   "y": 192,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 584,
+   "y": 172,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1440,
+   "y": 428,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1800,
+   "y": 448,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1604,
+   "y": 360,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 28,
+   "y": 276,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 568,
+   "y": 76,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1540,
+   "y": 132,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1212,
+   "y": 96,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.star",
+   "layer": "sky",
+   "x": 1864,
+   "y": 276,
+   "note": ""
+  },
+  {
+   "key": "bg.alien.crystal_glow",
+   "layer": "far",
+   "x": 320,
+   "y": 328,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.alien.cracks",
+   "layer": "mid",
+   "x": 240,
+   "y": 700,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.alien.glow_left",
+   "layer": "near",
+   "x": 0,
+   "y": 592,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.alien.glow_right",
+   "layer": "near",
+   "x": 1264,
+   "y": 592,
+   "note": "top-left in layer px; scroll with the layer"
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "world": "haunted",
+ "note": "Positions are top-left in 1920x1080 layer pixels (multiply by the bg scale k and add the layer's scroll offset). layer = which bg layer it rides on.",
+ "parallax": {
+  "bg.haunted.sky": "x = -fx.par*4 - t*2 (slow cloud drift)",
+  "bg.haunted.far": "x = -fx.par*14 - t*3",
+  "bg.haunted.mid": "x = -fx.par*24 - t*6",
+  "bg.haunted.near": "x = -fx.par*40 - t*10"
+ },
+ "elements": [
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1584,
+   "y": 204,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1480,
+   "y": 212,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 772,
+   "y": 200,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1056,
+   "y": 180,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1324,
+   "y": 224,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1196,
+   "y": 200,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 696,
+   "y": 172,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 204,
+   "y": 208,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 956,
+   "y": 212,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.star",
+   "layer": "sky",
+   "x": 1780,
+   "y": 148,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.windows",
+   "layer": "far",
+   "x": 800,
+   "y": 280,
+   "note": ""
+  },
+  {
+   "key": "bg.haunted.cobweb",
+   "layer": "near",
+   "x": 56,
+   "y": 160,
+   "note": "left trunk"
+  },
+  {
+   "key": "bg.haunted.cobweb",
+   "layer": "near",
+   "x": 1808,
+   "y": 432,
+   "note": "right trunk (draw mirrored)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 318,
+   "y": 852,
+   "note": "flame frame top-left (covers the baked flame)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 318,
+   "y": 876,
+   "note": "flame frame top-left (covers the baked flame)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 284,
+   "y": 888,
+   "note": "flame frame top-left (covers the baked flame)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 352,
+   "y": 888,
+   "note": "flame frame top-left (covers the baked flame)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 284,
+   "y": 912,
+   "note": "flame frame top-left (covers the baked flame)"
+  },
+  {
+   "key": "bg.haunted.flame",
+   "layer": "near",
+   "x": 352,
+   "y": 912,
+   "note": "flame frame top-left (covers the baked flame)"
+  }
+ ]
+}
