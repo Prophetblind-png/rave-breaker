@@ -1,0 +1,29 @@
+{
+ "chars": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ+-x!?.:,%/()'<>=#*@$[]^ ♪",
+ "columns": 16,
+ "font_5x7.png": {
+  "cell_w": 6,
+  "cell_h": 8,
+  "glyph_w": 5,
+  "glyph_h": 7,
+  "glyph_offset": [
+   0,
+   0
+  ],
+  "scale": 1,
+  "note": "white glyphs; tint in code (e.g. source-in fill). Advance 6."
+ },
+ "font_5x7_outlined.png": {
+  "cell_w": 8,
+  "cell_h": 10,
+  "glyph_w": 5,
+  "glyph_h": 7,
+  "glyph_offset": [
+   1,
+   1
+  ],
+  "scale": 1,
+  "note": "white glyph + dark purple 1px outline"
+ },
+ "note": "Same 5x7 metrics as src/font.ts; adds lowercase x (multiplier) and a music note. Index = position in chars, row-major."
+}
