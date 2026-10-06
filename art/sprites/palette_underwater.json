@@ -1,0 +1,41 @@
+{
+ "world": "underwater",
+ "colors": [
+  {
+   "index": 0,
+   "base": "#2ee6d0",
+   "hit": "#89f0e4",
+   "glow": "#205b54",
+   "deep": "#0f6a5f",
+   "file": "brick_underwater_basic0.png"
+  },
+  {
+   "index": 1,
+   "base": "#2a3a9a",
+   "hit": "#5869d1",
+   "glow": "#262c4f",
+   "deep": "#1b255e",
+   "file": "brick_underwater_basic1.png"
+  },
+  {
+   "index": 2,
+   "base": "#ff2bd6",
+   "hit": "#ff91e9",
+   "glow": "#641956",
+   "deep": "#770360",
+   "file": "brick_underwater_basic2.png"
+  },
+  {
+   "index": 3,
+   "base": "#b6ff3a",
+   "hit": "#dbffa0",
+   "glow": "#496519",
+   "deep": "#4c7703",
+   "file": "brick_underwater_basic3.png"
+  }
+ ],
+ "accent": "#3dffd8",
+ "ink": "#020a1e",
+ "sky": "#03244a",
+ "note": "base = brick fill, hit = flash colour, glow = halo/shadowColor, deep = inner shade (derived Oct 2026: teal / navy / magenta / lime)"
+}
