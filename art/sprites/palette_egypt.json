@@ -1,0 +1,51 @@
+{
+ "world": "egypt",
+ "colors": [
+  {
+   "index": 0,
+   "base": "#00F0C8",
+   "hit": "#57ffe3",
+   "glow": "#186054",
+   "deep": "#037763",
+   "file": "brick_egypt_std0.png"
+  },
+  {
+   "index": 1,
+   "base": "#FF2AE6",
+   "hit": "#ff90f1",
+   "glow": "#64195b",
+   "deep": "#770369",
+   "file": "brick_egypt_std1.png"
+  },
+  {
+   "index": 2,
+   "base": "#FFC700",
+   "hit": "#ffdd65",
+   "glow": "#615118",
+   "deep": "#775d03",
+   "file": "brick_egypt_std2.png"
+  },
+  {
+   "index": 3,
+   "base": "#FF9A3C",
+   "hit": "#ffcea2",
+   "glow": "#653e19",
+   "deep": "#773b03",
+   "file": "brick_egypt_std3.png"
+  }
+ ],
+ "accent": "#FFC700",
+ "ink": "#0d0618",
+ "sky": "#1A0D2E",
+ "world_palette": {
+  "deep_indigo": "#1A0D2E",
+  "violet": "#6A0DAD",
+  "hot_pink": "#FF2AE6",
+  "turquoise": "#00F0C8",
+  "gold": "#FFC700",
+  "sand_orange": "#FF9A3C",
+  "lime": "#A6FF00",
+  "white": "#F0F4FF"
+ },
+ "note": "base = brick fill, hit = flash colour, glow = halo/shadowColor, deep = inner shade"
+}

@@ -1,0 +1,264 @@
+{
+ "world": "egypt",
+ "note": "Positions are top-left in 1920x1080 layer pixels (multiply by the bg scale k and add the layer's scroll offset). layer = which bg layer it rides on.",
+ "parallax": {
+  "bg.egypt.sky": "x = -fx.par*4 - t*1",
+  "bg.egypt.far": "x = -fx.par*14 - t*3",
+  "bg.egypt.mid": "x = -fx.par*24 - t*6",
+  "bg.egypt.near": "x = -fx.par*40 - t*10"
+ },
+ "elements": [
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 216,
+   "y": 404,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 540,
+   "y": 392,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 624,
+   "y": 432,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 480,
+   "y": 564,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1692,
+   "y": 360,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 584,
+   "y": 500,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1224,
+   "y": 372,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 332,
+   "y": 380,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 436,
+   "y": 444,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1468,
+   "y": 292,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 72,
+   "y": 364,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1372,
+   "y": 368,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 920,
+   "y": -8,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 928,
+   "y": 388,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 880,
+   "y": 524,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 240,
+   "y": 484,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1824,
+   "y": 368,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 336,
+   "y": 492,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 584,
+   "y": 256,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 260,
+   "y": 568,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 680,
+   "y": 584,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1864,
+   "y": 104,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1356,
+   "y": 204,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1188,
+   "y": 468,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 736,
+   "y": -8,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 888,
+   "y": 260,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1108,
+   "y": 224,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.star",
+   "layer": "sky",
+   "x": 1516,
+   "y": 368,
+   "note": "centre the 28x28 frame on the star"
+  },
+  {
+   "key": "bg.egypt.glyphs",
+   "layer": "mid",
+   "x": 656,
+   "y": 408,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.egypt.glow_left",
+   "layer": "near",
+   "x": 0,
+   "y": 560,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.egypt.glow_right",
+   "layer": "near",
+   "x": 1208,
+   "y": 440,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.egypt.glow_brazier",
+   "layer": "near",
+   "x": 1200,
+   "y": 744,
+   "note": "top-left in layer px; scroll with the layer"
+  },
+  {
+   "key": "bg.egypt.torch",
+   "layer": "near",
+   "x": 632,
+   "y": 748,
+   "note": "flame frame top-left (sits in the brazier bowl)"
+  },
+  {
+   "key": "bg.egypt.torch",
+   "layer": "near",
+   "x": 1280,
+   "y": 748,
+   "note": "flame frame top-left (sits in the brazier bowl)"
+  },
+  {
+   "key": "bg.egypt.spotlight",
+   "layer": "sky",
+   "x": 280,
+   "y": 0,
+   "note": "pivot lamp at top centre; sweep"
+  },
+  {
+   "key": "bg.egypt.spotlight",
+   "layer": "sky",
+   "x": 1544,
+   "y": 0,
+   "note": "pivot lamp at top centre; sweep (opposite phase)"
+  }
+ ]
+}
